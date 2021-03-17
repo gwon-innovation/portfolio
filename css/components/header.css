@@ -20,6 +20,13 @@
   margin-left: 3.6rem;
 }
 
+.header__left__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
 .header__left__text__hello {
   margin-bottom: 2.4rem;
   font-weight: 700;
@@ -33,6 +40,18 @@
 .header__left__text__major {
   color: #909090;
   font-weight: 700;
+}
+
+.header__left__btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header__left__btns a {
+  margin-right: 3rem;
 }
 
 .header__right {
