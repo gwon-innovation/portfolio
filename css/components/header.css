@@ -1,14 +1,16 @@
 .header {
-  width: 100vw;
+  width: 100%;
   height: 50rem;
-  padding-left: 2.4rem;
-  padding-right: 2.4rem;
   background: #d7d7d7;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  background-image: url("../../img/bg_header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .header__left {
@@ -17,7 +19,7 @@
   justify-content: center;
   flex-grow: 1;
   height: 100%;
-  margin-left: 3.6rem;
+  padding-left: 6rem;
 }
 
 .header__left__text {
@@ -25,6 +27,7 @@
   flex-direction: column;
   justify-content: flex-end;
   flex-grow: 1;
+  padding-right: 6rem;
 }
 
 .header__left__text__hello {
@@ -57,16 +60,12 @@
 .header__right {
   flex-grow: 2;
   height: 100%;
-  background-image: url("../../img/divider_header.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .header__right img {
-  height: 70%;
-  width: auto;
-  margin-left: 10rem;
+  width: 70%;
+  height: auto;
 }

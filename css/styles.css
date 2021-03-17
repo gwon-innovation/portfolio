@@ -6,3 +6,25 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+}
+
+/* 화면 너비 0 ~ 1200px */
+@media (max-width: 1240px) {
+  body {
+    width: 100%;
+  }
+}
+/* 화면 너비 0 ~ 600px */
+@media (max-width: 600px) {
+}
+/* 화면 너비 0 ~ 360px */
+@media (max-width: 360px) {
+}
