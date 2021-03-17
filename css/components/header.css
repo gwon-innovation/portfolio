@@ -1,0 +1,31 @@
+.header {
+  width: 100vw;
+  height: 30rem;
+  background: #d7d7d7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.header__right {
+  flex-grow: 1;
+  height: 100%;
+  background-image: url("../../img/divider_header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.header__right img {
+  height: 100%;
+  width: auto;
+  margin-left: 10rem;
+}
