@@ -1,6 +1,8 @@
 .header {
   width: 100vw;
-  height: 30rem;
+  height: 50rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
   background: #d7d7d7;
   display: flex;
   flex-direction: row;
@@ -10,22 +12,42 @@
 }
 
 .header__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-grow: 1;
   height: 100%;
+  margin-left: 3.6rem;
+}
+
+.header__left__text__hello {
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}
+
+.header__left__text__name {
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}
+
+.header__left__text__major {
+  color: #909090;
+  font-weight: 700;
 }
 
 .header__right {
-  flex-grow: 1;
+  flex-grow: 2;
   height: 100%;
   background-image: url("../../img/divider_header.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .header__right img {
-  height: 100%;
+  height: 70%;
   width: auto;
   margin-left: 10rem;
 }
