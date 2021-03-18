@@ -71,3 +71,39 @@
   width: 70%;
   height: auto;
 }
+
+@media (max-width: 600px) {
+  .header {
+    height: 60rem;
+    background-image: url("../../img/bg_header_small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  .header__right {
+    display: none;
+  }
+  .header__left__text {
+    justify-content: center;
+    align-items: center;
+    height: 72%;
+  }
+  .header__left__text__hello h3 {
+    color: #fff;
+    font-weight: 500;
+  }
+  .header__left__text__name h2 {
+    color: #fff;
+    text-align: center;
+  }
+  .header__left__text__major h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .header__left__btns {
+    padding-right: 6rem;
+    justify-content: space-around;
+    height: 28%;
+  }
+}
