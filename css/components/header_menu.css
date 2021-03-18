@@ -93,6 +93,11 @@
   transform: scale(0.9);
 }
 
+.header__menu__dropdown__btn:hover,
+.header__menu__dropdown__content a:hover {
+  opacity: 0.5;
+}
+
 @media (max-width: 600px) {
   .header__menu__list {
     display: none;
