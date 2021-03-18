@@ -83,6 +83,10 @@
   display: flex;
 }
 
+.header__menu__list a:hover {
+  color: #909090;
+}
+
 @media (max-width: 600px) {
   .header__menu__list {
     display: none;
