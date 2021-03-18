@@ -72,6 +72,17 @@
   height: auto;
 }
 
+.header__left__btns a:hover {
+  opacity: 0.7;
+}
+.header__left__btns a:active {
+  transform: scale(0.9);
+}
+.header__left__btns a:visited {
+  opacity: 1;
+  transform: scale(1);
+}
+
 @media (max-width: 600px) {
   .header {
     height: 60rem;
