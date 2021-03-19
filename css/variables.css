@@ -19,4 +19,7 @@
   --section-top-padding-1200: 12.2rem 12.2rem;
   --section-top-padding-900: 6rem 6rem;
   --section-top-padding-600: 4.8rem 1.6rem;
+  --section-horizontal-padding-1200: 12.2rem;
+  --section-horizontal-padding-900: 6rem;
+  --section-horizontal-padding-600: 4.8rem;
 }

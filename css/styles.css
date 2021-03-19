@@ -4,7 +4,7 @@
 @import "components/header_menu.css";
 @import "components/header.css";
 @import "components/section_top.css";
-@import "components/about_image.css";
+@import "screens/about.css";
 
 html {
   font-size: 62.5%;
