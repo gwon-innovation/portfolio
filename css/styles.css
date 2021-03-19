@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "font.css";
+@import "variables.css";
 @import "components/header_menu.css";
 @import "components/header.css";
 
