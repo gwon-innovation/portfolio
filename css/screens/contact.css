@@ -127,21 +127,23 @@
     font-size: 4rem;
   }
   .contact__form__email {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .contact__form__message {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .contact__form__email:hover,
   .contact__form__email:focus {
     border-bottom: 0.5rem solid var(--gray2);
     width: 90%;
     transition: ease 0.5s;
+    font-size: 1.2rem;
   }
   .contact__form__message:hover,
   .contact__form__message:focus {
     border-bottom: 0.5rem solid var(--gray2);
     width: 90%;
     transition: ease 0.5s;
+    font-size: 1.2rem;
   }
 }
