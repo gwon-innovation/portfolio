@@ -4,8 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem var(--section-top-padding-1200);
-  background-color: #fff;
-  margin-top: 14rem;
+  background-color: #f2f2f2;
 }
 
 .contact__form {
@@ -18,6 +17,7 @@
   box-shadow: var(--box-shadow);
   width: 100%;
   padding: 4rem;
+  margin-bottom: 8rem;
   border-top: 0.5rem solid var(--gray2);
   animation: bounce 1.5s infinite;
 }
