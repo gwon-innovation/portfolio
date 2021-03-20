@@ -70,9 +70,17 @@
   margin-left: 2rem;
 }
 
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card__contents__link:hover {
+  color: var(--blue1);
+}
+
 @media (max-width: 900px) {
   .card {
-    margin: 2rem var(--section-horizontal-padding-900);
+    margin: 6rem var(--section-horizontal-padding-900);
     flex-direction: column;
   }
   .card__contents {
@@ -82,6 +90,6 @@
 
 @media (max-width: 600px) {
   .card {
-    margin: 2rem var(--section-horizontal-padding-600);
+    margin: 6rem var(--section-horizontal-padding-600);
   }
 }
