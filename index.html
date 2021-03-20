@@ -2,6 +2,7 @@
 <html lang="ko">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -67,7 +68,7 @@
     <nav></nav>
     <main>
       <section id="about">
-        <div class="section__top">
+        <div class="section__top" data-aos="fade-up">
           <h1>About</h1>
           <p>
             도전을 두려워하지 않고 열정이 넘치는 개발자 권혁신입니다.<br />
@@ -80,10 +81,10 @@
             어플리케이션을 공부하고 있습니다.
           </p>
         </div>
-        <div class="about__sub__title">
+        <div class="about__sub__title" data-aos="fade-up">
           <h2>Skills</h2>
         </div>
-        <div class="about__image__grid">
+        <div class="about__image__grid" data-aos="fade-up-right">
           <img src="img/about/img_cpp.png" />
           <img src="img/about/img_cuda.png" />
           <img src="img/about/img_imageprocessing.png" />
@@ -95,86 +96,90 @@
           <img src="img/about/img_vtk.png" />
           <img src="img/about/img_figma.png" />
         </div>
-        <div class="about__sub__title">
+        <div class="about__sub__title" data-aos="fade-up">
           <h2>Learning now</h2>
         </div>
-        <div class="about__image__flex">
+        <div class="about__image__flex" data-aos="fade-up-left">
           <img src="img/about/img_html.png" />
           <img src="img/about/img_css.png" />
           <img src="img/about/img_javascript.png" />
           <img src="img/about/img_android.png" />
         </div>
-        <div class="about__sub__title">
+        <div class="about__sub__title" data-aos="fade-up">
           <h2>Interesting</h2>
         </div>
-        <div class="about__image__flex">
+        <div class="about__image__flex" data-aos="fade-up-right">
           <img src="img/about/img_desktop.png" />
           <img src="img/about/img_mobile.png" />
           <img src="img/about/img_machine.png" />
         </div>
-        <div class="about__sub__title">
+        <div class="about__sub__title" data-aos="fade-up">
           <h2>Education</h2>
         </div>
-        <div class="card">
-          <div class="card__images">
-            <img src="img/about/img_hanyang.png" />
-          </div>
-          <div class="card__contents">
-            <div class="card__contents__period">
-              <h6>Mar, 2016 ~ Feb, 2018</h6>
+        <div data-aos="fade-up">
+          <div class="card">
+            <div class="card__images" data-aos="fade-right">
+              <img src="img/about/img_hanyang.png" />
             </div>
-            <div class="card__contents__title">
-              <h4>Hanyang University</h4>
-            </div>
-            <div class="card__contents__explain">
-              <div class="card__contents__explain__row">
-                <h6>•</h6>
-                <p>
-                  Master of Science degree in delectronics and computer
-                  engineering
-                </p>
+            <div class="card__contents" data-aos="fade-left">
+              <div class="card__contents__period">
+                <h6>Mar, 2016 ~ Feb, 2018</h6>
               </div>
-              <div class="card__contents__explain__row">
-                <h6>•</h6>
-                <p>Video & Image Engineering Lab</p>
+              <div class="card__contents__title">
+                <h4>Hanyang University</h4>
               </div>
-              <div class="card__contents__explain__row">
-                <h6>•</h6>
-                <p>Cumulative GPA : 4.1 / 4.5</p>
+              <div class="card__contents__explain">
+                <div class="card__contents__explain__row">
+                  <h6>•</h6>
+                  <p>
+                    Master of Science degree in delectronics and computer
+                    engineering
+                  </p>
+                </div>
+                <div class="card__contents__explain__row">
+                  <h6>•</h6>
+                  <p>Video & Image Engineering Lab</p>
+                </div>
+                <div class="card__contents__explain__row">
+                  <h6>•</h6>
+                  <p>Cumulative GPA : 4.1 / 4.5</p>
+                </div>
               </div>
-            </div>
-            <div class="card__contents__link">
-              <a href="http://vision.hanyang.ac.kr/" target="_blank">
-                Home page
-              </a>
-              <i class="fas fa-arrow-right"></i>
+              <div class="card__contents__link">
+                <a href="http://vision.hanyang.ac.kr/" target="_blank">
+                  Home page
+                </a>
+                <i class="fas fa-arrow-right"></i>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card__images">
-            <img src="img/about/img_inu.png" />
-          </div>
-          <div class="card__contents">
-            <div class="card__contents__period">
-              <h6>Mar, 2012 ~ Feb, 2018</h6>
+        <div data-aos="fade-up">
+          <div class="card">
+            <div class="card__images" data-aos="fade-right">
+              <img src="img/about/img_inu.png" />
             </div>
-            <div class="card__contents__title">
-              <h4>Incheon National University</h4>
-            </div>
-            <div class="card__contents__explain">
-              <div class="card__contents__explain__row">
-                <h6>•</h6>
-                <p>Bachelor of Science in embedded systems engineering</p>
+            <div class="card__contents" data-aos="fade-left">
+              <div class="card__contents__period">
+                <h6>Mar, 2012 ~ Feb, 2018</h6>
               </div>
-              <div class="card__contents__explain__row">
-                <h6>•</h6>
-                <p>Cumulative GPA : 4.1 / 4.5</p>
+              <div class="card__contents__title">
+                <h4>Incheon National University</h4>
               </div>
-            </div>
-            <div class="card__contents__link">
-              <a href="https://www.inu.ac.kr" target="_blank">Home page</a>
-              <i class="fas fa-arrow-right"></i>
+              <div class="card__contents__explain">
+                <div class="card__contents__explain__row">
+                  <h6>•</h6>
+                  <p>Bachelor of Science in embedded systems engineering</p>
+                </div>
+                <div class="card__contents__explain__row">
+                  <h6>•</h6>
+                  <p>Cumulative GPA : 4.1 / 4.5</p>
+                </div>
+              </div>
+              <div class="card__contents__link">
+                <a href="https://www.inu.ac.kr" target="_blank">Home page</a>
+                <i class="fas fa-arrow-right"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -195,5 +200,9 @@
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
