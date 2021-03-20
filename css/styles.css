@@ -1,0 +1,35 @@
+@import "reset.css";
+@import "font.css";
+@import "variables.css";
+@import "components/header_menu.css";
+@import "components/header.css";
+@import "components/section_top.css";
+@import "components/card.css";
+@import "screens/about.css";
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+}
+
+/* 화면 너비 0 ~ 1200px */
+@media (max-width: 1240px) {
+  body {
+    width: 100%;
+  }
+}
+/* 화면 너비 0 ~ 600px */
+@media (max-width: 600px) {
+}
+/* 화면 너비 0 ~ 360px */
+@media (max-width: 360px) {
+}
