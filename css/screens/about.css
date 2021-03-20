@@ -41,6 +41,7 @@
 .about__image__flex img {
   width: 16rem;
   height: auto;
+  margin: 0rem 1rem 4rem 1rem;
   background-color: #fff;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
