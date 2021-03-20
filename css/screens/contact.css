@@ -108,3 +108,40 @@
     transform: translate(0, 0.8rem);
   }
 }
+
+@media (max-width: 900px) {
+  .contact {
+    padding: 6rem var(--section-horizontal-padding-900);
+  }
+  .contact__form {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 6rem var(--section-horizontal-padding-600);
+  }
+  .contact__form__title h1 {
+    font-size: 4rem;
+  }
+  .contact__form__email {
+    font-size: 1.5rem;
+  }
+  .contact__form__message {
+    font-size: 1.5rem;
+  }
+  .contact__form__email:hover,
+  .contact__form__email:focus {
+    border-bottom: 0.5rem solid var(--gray2);
+    width: 90%;
+    transition: ease 0.5s;
+  }
+  .contact__form__message:hover,
+  .contact__form__message:focus {
+    border-bottom: 0.5rem solid var(--gray2);
+    width: 90%;
+    transition: ease 0.5s;
+  }
+}
