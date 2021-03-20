@@ -29,7 +29,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0rem 0rem 0rem 3rem;
+  padding: 0rem;
 }
 
 .card__contents__period {
@@ -119,7 +119,7 @@
     justify-content: center;
   }
   .card__contents {
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 2rem 0rem;
   }
 }
 
@@ -135,5 +135,8 @@
   .card__contents__link i {
     margin-left: 1rem;
     font-size: 1rem;
+  }
+  .card__contents {
+    padding: 2rem 0rem;
   }
 }
