@@ -102,6 +102,12 @@
   opacity: 0.5;
 }
 
+@media (min-width: 1200px) {
+  .header__menu {
+    width: 1200px;
+  }
+}
+
 @media (max-width: 600px) {
   .header__menu__list {
     display: none;
