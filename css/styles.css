@@ -4,6 +4,7 @@
 @import "components/header_menu.css";
 @import "components/header.css";
 @import "components/section_top.css";
+@import "components/card.css";
 @import "screens/about.css";
 
 html {
