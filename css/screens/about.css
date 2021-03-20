@@ -24,6 +24,9 @@
 .about__image__grid img {
   width: 100%;
   height: auto;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
 }
 
 .about__image__flex {
@@ -37,6 +40,9 @@
 .about__image__flex img {
   width: 16rem;
   height: auto;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
 }
 
 @media (max-width: 900px) {
