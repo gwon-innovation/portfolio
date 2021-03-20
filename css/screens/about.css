@@ -24,6 +24,7 @@
 .about__image__grid img {
   width: 100%;
   height: auto;
+  margin-bottom: 4rem;
   background-color: #fff;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
@@ -43,6 +44,11 @@
   background-color: #fff;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+}
+
+.about__image__grid img:hover,
+.about__image__flex img:hover {
+  transform: scale(1.02);
 }
 
 @media (max-width: 900px) {
