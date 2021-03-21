@@ -16,6 +16,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  width: 60%;
 }
 
 .card__images img {
@@ -30,6 +31,7 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 0rem;
+  width: 100%;
 }
 
 .card__contents__period {
@@ -117,6 +119,7 @@
   .card__images {
     flex-direction: row;
     justify-content: center;
+    width: 100%;
   }
   .card__contents {
     padding: 2rem 0rem;
